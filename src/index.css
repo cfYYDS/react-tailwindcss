@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background-color: #000300;
+}
+.button{
+  @apply bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black
+}
+.button-black{
+  @apply bg-black w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-[#00df9a]
+}
+.footer-li{
+  @apply py-2 text-sm
+}
